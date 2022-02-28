@@ -12,7 +12,7 @@ function App() {
       text: "Does Netlify Support Terraform?",
       options: [
         { id: 0, text: "WTH is Terraform?", isCorrect: false },
-        { id: 1, text: "We do not support Terraform", isCorrect: true },
+        { id: 1, text: "We do not support Terraform", isCorrect: false },
         {
           id: 2,
           text: "You could have an API to your Terraform Codebase",
@@ -21,7 +21,7 @@ function App() {
         {
           id: 3,
           text: "You better take that Terraform elsewehere!",
-          isCorrect: false,
+          isCorrect: true,
         },
       ],
     },
