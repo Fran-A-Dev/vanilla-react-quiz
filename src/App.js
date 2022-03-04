@@ -126,7 +126,7 @@ function App() {
       {showResults ? (
         /* 4. Final Results */
         <div className="final-results">
-          <h1>Final Results</h1>
+          <h1>Final Results Are Here</h1>
           <h2>
             {score} out of {questions.length} correct - (
             {(score / questions.length) * 100}%)
