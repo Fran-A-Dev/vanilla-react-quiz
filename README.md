@@ -1,3 +1,3 @@
 # Fran's Vanilla React Quiz
 
-Created with plaine `create-react-app`
+Created with plain `create-react-app`
