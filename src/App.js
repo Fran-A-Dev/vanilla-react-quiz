@@ -9,19 +9,19 @@ function App() {
 
   const questions = [
     {
-      text: "Does Netlify Support Terraform?",
+      text: "How does traditional WordPress render HTML?",
       options: [
-        { id: 0, text: "WTH is Terraform?", isCorrect: false },
-        { id: 1, text: "We do not support Terraform", isCorrect: false },
+        { id: 0, text: "It is Server Side Rendered", isCorrect: true },
+        { id: 1, text: "Client Side", isCorrect: false },
         {
           id: 2,
-          text: "You could have an API to your Terraform Codebase",
+          text: "It does not render HTML",
           isCorrect: false,
         },
         {
           id: 3,
-          text: "You better take that Terraform elsewehere!",
-          isCorrect: true,
+          text: "It is Statically Pre-Built",
+          isCorrect: false,
         },
       ],
     },
@@ -117,7 +117,7 @@ function App() {
   return (
     <div className="App">
       {/* 1. Header  */}
-      <h1>Fran's Netlify SE Quiz 🤓</h1>
+      <h1>Fran's Headless WP Quiz 🤓</h1>
 
       {/* 2. Current Score  */}
       <h2>Score: {score}</h2>
